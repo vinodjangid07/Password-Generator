@@ -14,7 +14,6 @@ function App() {
       <Router>
       <Header/>
         <Routes>
-        <Route path="/Password-Generator" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         </Routes>
