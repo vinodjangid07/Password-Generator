@@ -132,7 +132,7 @@ html {
   display: flex;
   flex-direction: column;
   background-color: rgb(241, 236, 255);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+  box-shadow: 10px 10px 10px rgba(158, 106, 255, 0.195);
   width: 350px;
   padding: 25px 20px;
   gap: 20px;
@@ -151,14 +151,28 @@ html {
   font-weight: 700;
   color: black;
 }
+.heading i{
+  color:rgb(0, 0, 0);
+  animation: 1s spin linear infinite;
+}
+@keyframes spin {
+  100%{
+    transform: rotate(180deg);
+  }
+}
 .input-div{
   width: 100%;
   display: flex;
   gap: 10px;
 }
 .input{
+  padding: 0px 20px;
   width: 80%;
   height: 30px;
+  border: .5px solid rgb(98, 0, 255);
+  border-radius: 40px;
+  color: rgb(23, 23, 23);
+  font-weight: 600;
 }
 .copy{
   width: 20%;
@@ -196,6 +210,12 @@ html {
 #length{
   width: 50px;
   height: 25px;
+  padding: 0px 4px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+#length:focus{
+  outline: none;
 }
 label{
   font-size: 1.5rem;
@@ -231,9 +251,10 @@ label{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#cacaca;
+  background-color:#e3e3e3;
   font-size: 4rem;
   font-weight: 600;
+  filter: invert(1);
 }
 .footer img{
   height: 100%;
@@ -249,7 +270,7 @@ label{
 }
 .about-us-description{
   width: 50%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 .about-us-heading{

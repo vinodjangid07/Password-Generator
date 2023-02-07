@@ -62,7 +62,7 @@ export default function Home() {
     <div className="daddy-container">
     <div className='main-container'>
     <div className='heading'>
-      <article>Password Generator</article>
+      <article>Password Generator&nbsp;&nbsp;<i class="fas fa-cog"></i></article>
     </div>
           <div className="input-div">
             <input type="text" className='input' id='inputField' disabled/>
