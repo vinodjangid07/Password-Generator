@@ -6,8 +6,8 @@ export default function Header() {
     <div className='navbar'>
     <div className="logo" id='logo'><img src={logo} alt="" /></div>
       <ul>
-        <li className='tabs'><Link className='tabs-link' to="/">Home</Link></li>
-        <li className='tabs'><Link className='tabs-link' to="/About">About</Link></li>
+        <li className='tabs'><Link className='tabs-link' to="/Password-Generator">Home</Link></li>
+        <li className='tabs'><Link className='tabs-link' to="/Password-Generator/About">About</Link></li>
       </ul>
     </div>
   )

@@ -15,8 +15,8 @@ function App() {
       <Header/>
         <Routes>
         <Route path="/Password-Generator" element={<Home />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
+        {/* <Route path="/Password-Generator/Home" element={<Home />} /> */}
+        <Route path="/Password-Generator/About" element={<About />} />
         </Routes>
       <Footer/>
       </Router>
